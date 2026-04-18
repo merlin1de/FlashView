@@ -1,6 +1,6 @@
 # FlashView
 
-**Durch 100.000 Fotos blättern. In Gedankengeschwindigkeit.**
+**Durch 100.000 Fotos blättern. Schneller als du denken kannst.**
 
 Ein schneller, schlanker Foto-Viewer für Windows — für Fotografen, die riesige Archive durchsehen und sortieren wollen.
 
@@ -16,7 +16,7 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 
 **Gebaut für riesige Ordner.** Virtualisiertes Grid, Streaming-Thumbnails, kein Vor-Indexieren — bleibt auch bei 100.000+ Bildern in einem einzelnen Ordner flüssig.
 
-**Blättern in Gedankengeschwindigkeit.** Pfeiltasten, Mausrad, Scroll — jede Eingabe zeigt das nächste Bild mit unter 50 ms Latenz, auch bei 45-Megapixel-JPEGs. Das ist das *Flash* im Namen.
+**Blitzschnell blättern.** Pfeiltasten, Mausrad, Scroll — jede Eingabe zeigt das nächste Bild mit unter 50 ms Latenz, auch bei 45-Megapixel-JPEGs. Das ist das *Flash* im Namen.
 
 **Nativer Windows-Explorer-Workflow.** Rechtsklick auf ein Bild → *Öffnen mit FlashView* → in unter einer Sekunde in der Loupe, mit dem ganzen Ordner bereits geladen. `Strg+C` kopiert das Bild, Pfeiltasten gehen zum nächsten.
 
@@ -26,7 +26,6 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 - **Hunderte auf einmal bewerten.** 200, 1.000 oder mehr Dateien auswählen — `3` drücken, fertig. Sterne, Farbmarken, Pick/Reject — alles mit einem Tastendruck, gleichermaßen für JPEGs und XMP-Sidecars. `Strg+Z` macht den letzten Batch rückgängig.
 - **Live filtern.** Nach Sternen (mindestens/genau/höchstens), Farbmarke, Pick, Reject — oder RAW-Dateien ganz ausblenden. Genau auf das herunterfiltern, was gerade beurteilt wird.
 - **Sortieren und gruppieren.** Name oder Datum, auf- oder absteigend. Einen Elternordner nach Shoots gruppieren, mit konfigurierbarer Tiefe.
-- **Breiter RAW-Support.** Canon (CR3, CR2), Nikon (NEF, NRW), Sony (ARW, SR2) und Adobe DNG — angezeigt über das eingebettete Vorschau-JPEG, EXIF direkt aus der Datei. CR3 hat einen eigenen Fast-Path; andere Formate laufen best-effort, sind aber vollständig sichtbar. Fujifilm (RAF), Panasonic (RW2), Olympus (ORF) und Pentax (PEF) sind auf der Roadmap.
 - **Fünf Farbmarken.** Rot (`6`), Gelb (`7`), Grün (`8`), Blau (`9`), Lila (`V`) — als Standard-XMP, lesbar in jeder größeren Software.
 - **Keyboard-first.** `←→` navigieren, `0–5` bewerten, `P` Pick, `X` Reject, `U` Flags löschen, `G/L` Grid/Loupe, `F` Vollbild, `I` EXIF, `Entf` Papierkorb, `Strg+Z` rückgängig, `Strg+A` alle auswählen, `Strg+O` Ordner öffnen, `R` rekursiv, `F1` zeigt die vollständige Liste.
 - **Hoch und runter durch die Struktur.** Einen Elternordner öffnen und Shoots gruppiert sehen. In einen Unterordner zoomen oder alle rekursiv zusammen durchsehen.
@@ -34,6 +33,14 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 - **Dunkles UI, DE/EN.** Folgt automatisch der Systemsprache.
 - **Zoom und Details.** 1:1-Pixelansicht, an Bildschirm anpassen, Pan.
 - **EXIF-Panel.** Kamera, Objektiv, Brennweite, Blende, Verschlusszeit, ISO, Datum, Pixelgröße, Fotograf, Copyright — in der Loupe mit `I` einblendbar.
+
+## Unterstützte Formate
+
+- **Bilder:** JPEG (`.jpg`, `.jpeg`, `.jpe`, `.jfif`), PNG
+- **RAW, voll** (EXIF + eingebettetes Preview): Canon CR3, Nikon NEF / NRW, Sony ARW / SR2
+- **RAW, eingeschränkt** (nur EXIF, Preview noch offen): Canon CR2, Adobe DNG
+
+Nicht eingebaut: Olympus ORF, Fujifilm RAF, Panasonic RW2, Pentax PEF — [Issue öffnen](../../issues/new), falls du eines davon brauchst. Die TIFF-Parser-Basis kann ORF, RW2 und PEF mit wenig Aufwand aufnehmen.
 
 ## Was es nicht ist
 
