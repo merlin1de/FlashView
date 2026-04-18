@@ -26,7 +26,7 @@ FlashView is the fast first-pass tool between copying your card and opening your
 - **Batch-rate hundreds at a time.** Select 200, 1,000, or more files — press `3`, done. Stars, color labels, pick/reject all writable in a single keystroke, across JPEGs and XMP sidecars alike. `Ctrl+Z` undoes the last batch.
 - **Filter on the fly.** Filter by rating (at-least, exact, at-most), by color label, by picked, by rejected, or hide RAW files entirely. Cull down to exactly what you're reviewing.
 - **Sort and group.** Name or date, ascending or descending. Group a parent folder by shoot, with configurable depth.
-- **Canon CR3 support.** Smooth browsing of RAW folders via the embedded preview JPEG. More RAW formats (NEF, ARW, RAF, DNG…) are on the roadmap.
+- **Wide RAW support.** Canon (CR3, CR2), Nikon (NEF, NRW), Sony (ARW, SR2), and Adobe DNG — browsed via the embedded preview JPEG, with EXIF read directly from the file. CR3 has a dedicated fast-path; other formats are best-effort but fully viewable. Fujifilm (RAF), Panasonic (RW2), Olympus (ORF), and Pentax (PEF) are on the roadmap.
 - **Five color labels.** Red (`6`), yellow (`7`), green (`8`), blue (`9`), purple (`V`) — written as standard XMP, read back everywhere.
 - **Keyboard-first.** `←→` navigate, `0–5` rate, `P` pick, `X` reject, `U` clear flags, `G/L` Grid/Loupe, `F` fullscreen, `I` EXIF, `Del` trash, `Ctrl+Z` undo, `Ctrl+A` select all, `Ctrl+O` open folder, `R` recursive, `F1` shows the full list.
 - **Drill up, drill down.** Open a parent folder and see shoots grouped. Zoom into any subfolder, or browse them all at once recursively.
@@ -41,7 +41,6 @@ FlashView is the fast first-pass tool between copying your card and opening your
 - Not color-managed yet — sRGB assumed.
 - Not a library or catalog — folders are your catalog, no import step.
 - Not cloud-synced — purely local.
-- Not every RAW format — CR3 is the only fully supported RAW today.
 
 ## Where it fits in
 
