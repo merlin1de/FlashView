@@ -38,16 +38,13 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 
 - **Bilder:** JPEG (`.jpg`, `.jpeg`, `.jpe`, `.jfif`), PNG
 - **RAW** — Best-Effort über eingebettetes Preview-JPEG, keine externe RAW-Engine:
-  - Canon CR3 — getestet: R6, R6 Mk III
-  - Canon CR2 — getestet: 350D, 400D, 7D
-  - Nikon NEF / NRW — getestet: D1-Serie, D70s, D90, D7000
-  - Sony ARW / SR2 — getestet: A300/330/550/580/700/850, NEX-3/5R/7, RX10 II
-  - Adobe DNG — getestet: iPhone, Canon, Pentax K-1 (Leica M8 fällt auf EXIF zurück)
-  - Pentax PEF — getestet: K-r, K-7, K-1, K-1 Mk II, K10D
-  - Olympus ORF — moderne Bodys (XZ-2, E-5, E-M5 II/III, E-PL1); alte Kompakte (E-10, SP350, C8080) zeigen nur 160×120 Thumbnail (Kamera-Limit, kein großer Preview eingebettet)
-  - Panasonic RW2 — getestet: S1 II, S1R II, G1/G6, FZ72/200, TZ71
-
-43 von 44 realen Samples dekodieren sauber. Getestet gegen raw-samples-f-spot und eigene Bibliothek.
+  - Canon CR3, CR2
+  - Nikon NEF / NRW
+  - Sony ARW / SR2
+  - Adobe DNG (Leica M8 fällt auf EXIF zurück)
+  - Pentax PEF
+  - Olympus ORF (moderne Bodys; alte Kompakte zeigen nur Kamera-Thumbnails)
+  - Panasonic RW2
 
 Nicht eingebaut: Fujifilm RAF — [Issue öffnen](../../issues/new), falls du es brauchst.
 
