@@ -28,12 +28,12 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 - **Sortieren und gruppieren.** Name oder Datum, auf- oder absteigend. Einen Elternordner nach Shoots gruppieren, mit konfigurierbarer Tiefe.
 - **Canon CR3-Unterstützung.** Flüssiges Browsen von RAW-Ordnern über das eingebettete Vorschau-JPEG. Weitere RAW-Formate (NEF, ARW, RAF, DNG…) sind auf der Roadmap.
 - **Fünf Farbmarken.** Rot (`6`), Gelb (`7`), Grün (`8`), Blau (`9`), Lila (`V`) — als Standard-XMP, lesbar in jeder größeren Software.
-- **Keyboard-first.** `←→` navigieren, `0–5` bewerten, `P` Pick, `X` Reject, `U` Flags löschen, `G/L` Grid/Loupe, `F` Vollbild, `Entf` Papierkorb, `Strg+Z` rückgängig, `Strg+A` alle auswählen, `Strg+O` Ordner öffnen, `R` rekursiv, `F1` zeigt die vollständige Liste.
+- **Keyboard-first.** `←→` navigieren, `0–5` bewerten, `P` Pick, `X` Reject, `U` Flags löschen, `G/L` Grid/Loupe, `F` Vollbild, `I` EXIF, `Entf` Papierkorb, `Strg+Z` rückgängig, `Strg+A` alle auswählen, `Strg+O` Ordner öffnen, `R` rekursiv, `F1` zeigt die vollständige Liste.
 - **Hoch und runter durch die Struktur.** Einen Elternordner öffnen und Shoots gruppiert sehen. In einen Unterordner zoomen oder alle rekursiv zusammen durchsehen.
 - **Zuletzt geöffnete Ordner.** Schneller Zugriff auf die letzten Roots.
 - **Dunkles UI, DE/EN.** Folgt automatisch der Systemsprache.
 - **Zoom und Details.** 1:1-Pixelansicht, an Bildschirm anpassen, Pan.
-- **EXIF-Viewer.** *In Arbeit.*
+- **EXIF-Panel.** Kamera, Objektiv, Brennweite, Blende, Verschlusszeit, ISO, Datum, Pixelgröße, Fotograf, Copyright — in der Loupe mit `I` einblendbar.
 
 ## Was es nicht ist
 
