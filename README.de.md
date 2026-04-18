@@ -46,8 +46,6 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
   - Olympus ORF (moderne Bodys; alte Kompakte zeigen nur Kamera-Thumbnails)
   - Panasonic RW2
 
-Nicht eingebaut: Fujifilm RAF — [Issue öffnen](../../issues/new), falls du es brauchst.
-
 ## Was es nicht ist
 
 - Kein Entwicklungstool — keine Belichtung, Beschnitt oder Weißabgleich.
