@@ -28,12 +28,12 @@ FlashView is the fast first-pass tool between copying your card and opening your
 - **Sort and group.** Name or date, ascending or descending. Group a parent folder by shoot, with configurable depth.
 - **Canon CR3 support.** Smooth browsing of RAW folders via the embedded preview JPEG. More RAW formats (NEF, ARW, RAF, DNG…) are on the roadmap.
 - **Five color labels.** Red (`6`), yellow (`7`), green (`8`), blue (`9`), purple (`V`) — written as standard XMP, read back everywhere.
-- **Keyboard-first.** `←→` navigate, `0–5` rate, `P` pick, `X` reject, `U` clear flags, `G/L` Grid/Loupe, `F` fullscreen, `Del` trash, `Ctrl+Z` undo, `Ctrl+A` select all, `Ctrl+O` open folder, `R` recursive, `F1` shows the full list.
+- **Keyboard-first.** `←→` navigate, `0–5` rate, `P` pick, `X` reject, `U` clear flags, `G/L` Grid/Loupe, `F` fullscreen, `I` EXIF, `Del` trash, `Ctrl+Z` undo, `Ctrl+A` select all, `Ctrl+O` open folder, `R` recursive, `F1` shows the full list.
 - **Drill up, drill down.** Open a parent folder and see shoots grouped. Zoom into any subfolder, or browse them all at once recursively.
 - **Recent roots.** Your last opened folders, one click away.
 - **Dark UI, DE/EN.** Follows your system language automatically.
 - **Zoom and inspect.** 1:1 pixel view, fit-to-screen, pan.
-- **EXIF viewer.** *Coming soon.*
+- **EXIF panel.** Camera, lens, focal length, aperture, shutter, ISO, date, pixel size, artist, copyright — toggle in the Loupe with `I`.
 
 ## What It's Not
 
