@@ -38,16 +38,13 @@ FlashView is the fast first-pass tool between copying your card and opening your
 
 - **Images:** JPEG (`.jpg`, `.jpeg`, `.jpe`, `.jfif`), PNG
 - **RAW** — best-effort via embedded preview JPEG, no external RAW engine:
-  - Canon CR3 — tested: R6, R6 Mk III
-  - Canon CR2 — tested: 350D, 400D, 7D
-  - Nikon NEF / NRW — tested: D1 series, D70s, D90, D7000
-  - Sony ARW / SR2 — tested: A300/330/550/580/700/850, NEX-3/5R/7, RX10 II
-  - Adobe DNG — tested: iPhone, Canon, Pentax K-1 (Leica M8 falls back to EXIF only)
-  - Pentax PEF — tested: K-r, K-7, K-1, K-1 Mk II, K10D
-  - Olympus ORF — modern bodies (XZ-2, E-5, E-M5 II/III, E-PL1); old compacts (E-10, SP350, C8080) show only 160×120 thumbnails (camera limit, no large preview embedded)
-  - Panasonic RW2 — tested: S1 II, S1R II, G1/G6, FZ72/200, TZ71
-
-43 of 44 real-world samples decode cleanly. Tested against raw-samples-f-spot and my own library.
+  - Canon CR3, CR2
+  - Nikon NEF / NRW
+  - Sony ARW / SR2
+  - Adobe DNG (Leica M8 falls back to EXIF only)
+  - Pentax PEF
+  - Olympus ORF (modern bodies; old compacts show only camera thumbnails)
+  - Panasonic RW2
 
 Not yet built in: Fujifilm RAF — [open an issue](../../issues/new) if you need it.
 
