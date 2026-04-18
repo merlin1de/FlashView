@@ -46,8 +46,6 @@ FlashView is the fast first-pass tool between copying your card and opening your
   - Olympus ORF (modern bodies; old compacts show only camera thumbnails)
   - Panasonic RW2
 
-Not yet built in: Fujifilm RAF — [open an issue](../../issues/new) if you need it.
-
 ## What It's Not
 
 - Not a developing tool — no exposure, crop, or white balance.
