@@ -26,7 +26,6 @@ FlashView is the fast first-pass tool between copying your card and opening your
 - **Batch-rate hundreds at a time.** Select 200, 1,000, or more files — press `3`, done. Stars, color labels, pick/reject all writable in a single keystroke, across JPEGs and XMP sidecars alike. `Ctrl+Z` undoes the last batch.
 - **Filter on the fly.** Filter by rating (at-least, exact, at-most), by color label, by picked, by rejected, or hide RAW files entirely. Cull down to exactly what you're reviewing.
 - **Sort and group.** Name or date, ascending or descending. Group a parent folder by shoot, with configurable depth.
-- **Wide RAW support.** Canon (CR3, CR2), Nikon (NEF, NRW), Sony (ARW, SR2), and Adobe DNG — browsed via the embedded preview JPEG, with EXIF read directly from the file. CR3 has a dedicated fast-path; other formats are best-effort but fully viewable. Fujifilm (RAF), Panasonic (RW2), Olympus (ORF), and Pentax (PEF) are on the roadmap.
 - **Five color labels.** Red (`6`), yellow (`7`), green (`8`), blue (`9`), purple (`V`) — written as standard XMP, read back everywhere.
 - **Keyboard-first.** `←→` navigate, `0–5` rate, `P` pick, `X` reject, `U` clear flags, `G/L` Grid/Loupe, `F` fullscreen, `I` EXIF, `Del` trash, `Ctrl+Z` undo, `Ctrl+A` select all, `Ctrl+O` open folder, `R` recursive, `F1` shows the full list.
 - **Drill up, drill down.** Open a parent folder and see shoots grouped. Zoom into any subfolder, or browse them all at once recursively.
@@ -34,6 +33,23 @@ FlashView is the fast first-pass tool between copying your card and opening your
 - **Dark UI, DE/EN.** Follows your system language automatically.
 - **Zoom and inspect.** 1:1 pixel view, fit-to-screen, pan.
 - **EXIF panel.** Camera, lens, focal length, aperture, shutter, ISO, date, pixel size, artist, copyright — toggle in the Loupe with `I`.
+
+## Supported formats
+
+- **Images:** JPEG (`.jpg`, `.jpeg`, `.jpe`, `.jfif`), PNG
+- **RAW** — best-effort via embedded preview JPEG, no external RAW engine:
+  - Canon CR3 — tested: R6, R6 Mk III
+  - Canon CR2 — tested: 350D, 400D, 7D
+  - Nikon NEF / NRW — tested: D1 series, D70s, D90, D7000
+  - Sony ARW / SR2 — tested: A300/330/550/580/700/850, NEX-3/5R/7, RX10 II
+  - Adobe DNG — tested: iPhone, Canon, Pentax K-1 (Leica M8 falls back to EXIF only)
+  - Pentax PEF — tested: K-r, K-7, K-1, K-1 Mk II, K10D
+  - Olympus ORF — modern bodies (XZ-2, E-5, E-M5 II/III, E-PL1); old compacts (E-10, SP350, C8080) show only 160×120 thumbnails (camera limit, no large preview embedded)
+  - Panasonic RW2 — tested: S1 II, S1R II, G1/G6, FZ72/200, TZ71
+
+43 of 44 real-world samples decode cleanly. Tested against raw-samples-f-spot and my own library.
+
+Not yet built in: Fujifilm RAF — [open an issue](../../issues/new) if you need it.
 
 ## What It's Not
 
