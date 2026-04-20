@@ -4,6 +4,10 @@
 
 A fast, lightweight photo viewer for Windows — built for photographers who want to see and cull huge archives at speed.
 
+> **Website & Download → [flashview.net](https://flashview.net)**
+>
+> This repo is the **issue tracker only**. Source code is not public (yet).
+
 English · [Deutsch](README.de.md)
 
 ## What it does
