@@ -4,6 +4,10 @@
 
 Ein schneller, schlanker Foto-Viewer für Windows — für Fotografen, die riesige Archive durchsehen und sortieren wollen.
 
+> **Webseite & Download → [flashview.net](https://flashview.net)**
+>
+> Dieses Repo ist ausschließlich der **Issue-Tracker**. Der Quellcode ist (noch) nicht öffentlich.
+
 [English](README.md) · Deutsch
 
 ## Was es tut
