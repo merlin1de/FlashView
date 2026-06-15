@@ -31,7 +31,11 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 - **Live filtern.** Nach Sternen (mindestens/genau/höchstens), Farbmarke, Pick, Reject — oder RAW-Dateien ganz ausblenden. Genau auf das herunterfiltern, was gerade beurteilt wird.
 - **Sortieren und gruppieren.** Name oder Datum, auf- oder absteigend. Einen Elternordner nach Shoots gruppieren, mit konfigurierbarer Tiefe.
 - **Fünf Farbmarken.** Rot (`6`), Gelb (`7`), Grün (`8`), Blau (`9`), Lila (`V`) — als Standard-XMP, lesbar in jeder größeren Software.
-- **Keyboard-first.** `←→` navigieren, `0–5` bewerten, `P` Pick, `X` Reject, `U` Flags löschen, `G/L` Grid/Loupe, `F` Vollbild, `I` EXIF, `Entf` Papierkorb, `Strg+Z` rückgängig, `Strg+A` alle auswählen, `Strg+O` Ordner öffnen, `R` rekursiv, `F1` zeigt die vollständige Liste.
+- **Keyboard-first.** `←→` navigieren, `0–5` bewerten, `P` Pick, `X` Reject, `U` Flags löschen, `G/L` Grid/Loupe, `F` Vollbild, `F11` Loupe auf zweitem Monitor, `I` EXIF, `S` Diashow, `Strg+F` Suche, `Entf` Papierkorb, `Strg+Z` rückgängig, `Strg+A` alle auswählen, `Strg+O` Ordner öffnen, `R` rekursiv, `F1` zeigt die vollständige Liste.
+- **Zu jeder Datei springen.** Schnellsuche (`Strg+F`) findet Ordner oder Bild per Name im ganzen Baum.
+- **Diashow.** Automatischer Durchlauf durch den aktuellen Ordner oder die Auswahl, mit konfigurierbarem Intervall (`S`).
+- **Loupe auf zweitem Monitor.** `F11` öffnet eine große Loupe auf dem zweiten Bildschirm, während du auf dem Hauptschirm blätterst und cullst.
+- **Cloud-bewusst.** Für OneDrive- / Nextcloud- / Dropbox-Ordner wählst du, wie nur-online-Dateien behandelt werden: voll synchronisieren (alles laden), ignorieren (nichts laden) oder nur die ersten N Bilder als Vorschau bei Bedarf — so öffnet ein riesiger Cloud-Ordner, ohne alles herunterzuladen.
 - **Hoch und runter durch die Struktur.** Einen Elternordner öffnen und Shoots gruppiert sehen. In einen Unterordner zoomen oder alle rekursiv zusammen durchsehen.
 - **Zuletzt geöffnete Ordner.** Schneller Zugriff auf die letzten Roots.
 - **Dunkles UI, DE/EN.** Folgt automatisch der Systemsprache.
@@ -40,12 +44,15 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 
 ## Unterstützte Formate
 
-- **Bilder:** JPEG (`.jpg`, `.jpeg`, `.jpe`, `.jfif`), PNG
+- **Bilder:** JPEG (`.jpg`, `.jpeg`, `.jpe`, `.jfif`), PNG, HEIC / HEIF (`.heic`, `.heif`, `.hif`), TIFF (`.tif`, `.tiff`)
 - **RAW** — Best-Effort über eingebettetes Preview-JPEG, keine externe RAW-Engine:
   - Canon CR3, CR2
   - Nikon NEF / NRW
   - Sony ARW / SR2
+  - Fujifilm RAF
   - Adobe DNG (Leica M8 fällt auf EXIF zurück)
+  - Hasselblad 3FR / FFF
+  - Samsung SRW
   - Pentax PEF
   - Olympus ORF (moderne Bodys; alte Kompakte zeigen nur Kamera-Thumbnails)
   - Panasonic RW2
@@ -55,7 +62,6 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 - Kein Entwicklungstool — keine Belichtung, Beschnitt oder Weißabgleich.
 - Noch nicht farb-managed — sRGB wird angenommen.
 - Keine Bibliothek und kein Katalog — Ordner sind dein Katalog, kein Import-Schritt.
-- Keine Cloud-Synchronisation — rein lokal.
 
 ## Wo es einsortiert
 
@@ -79,6 +85,4 @@ Wer ähnlich fotografiert, für den ist es vielleicht auch schneller.
 
 ---
 
-Dev-Referenz (Build, Env-Vars, Architektur): siehe [`docs/dev-reference.md`](docs/dev-reference.md).
-
-© Mathias Mischler. Beta-Release, „wie besehen", ohne Gewährleistung.
+© Mathias Mischler. „Wie besehen", ohne Gewährleistung.
