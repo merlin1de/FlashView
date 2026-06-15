@@ -12,7 +12,7 @@ Ein schneller, schlanker Foto-Viewer für Windows — für Fotografen, die riesi
 
 ## Was es tut
 
-Einen Ordner mit Tausenden Fotos öffnen. Flüssig durchscrollen. Keeper mit einem Tastendruck bewerten, Ausschuss markieren, auf das Wesentliche herunterfiltern, Bewertungen als Standard-XMP exportieren — direkt lesbar in Lightroom, Bridge, Photo Mechanic oder digiKam.
+Einen Ordner mit Tausenden Fotos öffnen. Flüssig durchscrollen. Keeper mit einem Tastendruck bewerten, Ausschuss markieren, auf das Wesentliche herunterfiltern, Bewertungen als Standard-XMP exportieren — direkt lesbar in Lightroom, Bridge oder digiKam.
 
 FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren und Editor öffnen.
 
@@ -26,7 +26,7 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 
 ## Features
 
-- **XMP-Metadaten, die jedes größere Tool liest.** Sterne, Farbmarken und Pick/Reject-Flags werden als Standard-XMP geschrieben — direkt in die JPEG eingebettet oder als Sidecar neben der RAW. Jedes XMP-fähige Programm liest sie: Lightroom, Bridge, Photo Mechanic, digiKam und alles andere, das XMP spricht.
+- **XMP-Metadaten, die jedes größere Tool liest.** Sterne, Farbmarken und Pick/Reject-Flags werden als Standard-XMP geschrieben — direkt in die JPEG eingebettet oder als Sidecar neben der RAW. Jedes XMP-fähige Programm liest sie: Lightroom, Bridge, digiKam und alles andere, das XMP spricht.
 - **Hunderte auf einmal bewerten.** 200, 1.000 oder mehr Dateien auswählen — `3` drücken, fertig. Sterne, Farbmarken, Pick/Reject — alles mit einem Tastendruck, gleichermaßen für JPEGs und XMP-Sidecars. `Strg+Z` macht den letzten Batch rückgängig.
 - **Live filtern.** Nach Sternen (mindestens/genau/höchstens), Farbmarke, Pick, Reject — oder RAW-Dateien ganz ausblenden. Genau auf das herunterfiltern, was gerade beurteilt wird.
 - **Sortieren und gruppieren.** Name oder Datum, auf- oder absteigend. Einen Elternordner nach Shoots gruppieren, mit konfigurierbarer Tiefe.
@@ -60,14 +60,14 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 ## Was es nicht ist
 
 - Kein Entwicklungstool — keine Belichtung, Beschnitt oder Weißabgleich.
-- Noch nicht farb-managed — sRGB wird angenommen.
+- Kein Color-Management — sRGB by Design.
 - Keine Bibliothek und kein Katalog — Ordner sind dein Katalog, kein Import-Schritt.
 
-## Wo es einsortiert
+## Wo es sich einfügt
 
-Die meisten Foto-Browser versprechen Geschwindigkeit. Die meisten funktionieren bei ein paar hundert Bildern, geraten bei 10.000 ins Hintertreffen und geben bei 100.000 auf. FlashView ist für die zweite Hälfte dieser Kurve gebaut — für die Ordner, die echte Fotografen tatsächlich ansammeln.
+Die meisten Foto-Browser versprechen Geschwindigkeit. Die meisten funktionieren bei ein paar hundert Bildern, geraten bei 10.000 ins Hintertreffen und geben bei 100.000 auf. FlashView ist genau für dieses obere Ende gebaut — für die Ordner, die echte Fotografen tatsächlich ansammeln.
 
-Lightroom ist Editor-first; das Bibliotheksmodul ist nicht aufs schnelle Cullen optimiert. Photo Mechanic beherrscht die Größenordnung, liegt aber im Profi-Preissegment. FlashView schließt die Lücke: schnell genug für einen Fünfzigtausend-Bilder-Shoot, schlank genug, um auf jedem deiner Rechner zu laufen.
+Lightroom ist Editor-first; das Bibliotheksmodul ist nicht aufs schnelle Cullen ausgelegt. FlashView ergänzt es — dein schneller Erstdurchgang vor Lightroom, kein Ersatz: schnell genug für einen Fünfzigtausend-Bilder-Shoot, schlank genug, um auf jedem deiner Rechner zu laufen.
 
 ## Ökosystem
 
@@ -81,7 +81,7 @@ Bug oder Feature-Idee? [Issue öffnen](../../issues/new). Dieses Repo ist nur f�
 
 Entstanden aus dem eigenen Canon-Workflow (20D bis R6 Mk III). Lightroom ist exzellent für die Entwicklung, aber der Schritt *davor* — durch 800 Frames klicken und die Keeper markieren — hat sich immer zäh angefühlt. FlashView macht diesen Schritt schnell.
 
-Wer ähnlich fotografiert, für den ist es vielleicht auch schneller.
+Wenn dein Workflow ähnlich aussieht, beschleunigt es ihn vielleicht auch.
 
 ---
 
