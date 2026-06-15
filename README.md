@@ -12,7 +12,7 @@ English · [Deutsch](README.de.md)
 
 ## What it does
 
-Open a folder with thousands of photos. Scroll through them at full speed. Rate your keepers with a single keystroke, flag the rejects, filter down to what matters, and export ratings as standard XMP — ready for Lightroom, Bridge, Photo Mechanic, or digiKam.
+Open a folder with thousands of photos. Scroll through them at full speed. Rate your keepers with a single keystroke, flag the rejects, filter down to what matters, and export ratings as standard XMP — ready for Lightroom, Bridge, or digiKam.
 
 FlashView is the fast first-pass tool between copying your card and opening your editor.
 
@@ -26,7 +26,7 @@ FlashView is the fast first-pass tool between copying your card and opening your
 
 ## Features
 
-- **XMP metadata, shared with every major tool.** Ratings, color labels, and pick/reject flags are written as standard XMP — embedded inside the JPEG, or as a sidecar next to your RAW. Any XMP-aware program reads them back: Lightroom, Bridge, Photo Mechanic, digiKam, and anything else that speaks XMP.
+- **XMP metadata, shared with every major tool.** Ratings, color labels, and pick/reject flags are written as standard XMP — embedded inside the JPEG, or as a sidecar next to your RAW. Any XMP-aware program reads them back: Lightroom, Bridge, digiKam, and anything else that speaks XMP.
 - **Batch-rate hundreds at a time.** Select 200, 1,000, or more files — press `3`, done. Stars, color labels, pick/reject all writable in a single keystroke, across JPEGs and XMP sidecars alike. `Ctrl+Z` undoes the last batch.
 - **Filter on the fly.** Filter by rating (at-least, exact, at-most), by color label, by picked, by rejected, or hide RAW files entirely. Cull down to exactly what you're reviewing.
 - **Sort and group.** Name or date, ascending or descending. Group a parent folder by shoot, with configurable depth.
@@ -60,14 +60,14 @@ FlashView is the fast first-pass tool between copying your card and opening your
 ## What It's Not
 
 - Not a developing tool — no exposure, crop, or white balance.
-- Not color-managed yet — sRGB assumed.
+- Not color-managed — sRGB by design.
 - Not a library or catalog — folders are your catalog, no import step.
 
 ## Where it fits in
 
-Most photo browsers promise speed. Most are fine at a few hundred images, fall behind at 10,000, and give up at 100,000. FlashView is built for the second half of that curve — the folders that real photographers actually accumulate.
+Most photo browsers promise speed. Most are fine at a few hundred images, fall behind at 10,000, and give up at 100,000. FlashView is built for that high end — the folders real photographers actually accumulate.
 
-Lightroom is editor-first; its Library isn't optimized for rapid culling. Photo Mechanic handles the scale but is priced for newsrooms. FlashView fills the gap: fast enough for a fifty-thousand-image shoot, lean enough to live on every machine you own.
+Lightroom is editor-first; its Library isn't built for rapid culling. FlashView complements it — your fast first pass before Lightroom, not a replacement: fast enough for a fifty-thousand-image shoot, lean enough to live on every machine you own.
 
 ## Ecosystem
 
@@ -81,7 +81,7 @@ Bug or feature idea? [Open an issue](../../issues/new). This repo is issue-only 
 
 Born out of my own Canon workflow (20D through R6 Mk III). Lightroom is excellent for developing, but the step *before* — clicking through 800 frames and marking the keepers — always felt sluggish. FlashView makes that step fast.
 
-If you shoot similarly, it might be faster for you too.
+If your workflow looks similar, it might speed yours up too.
 
 ---
 
