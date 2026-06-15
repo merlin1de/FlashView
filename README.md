@@ -31,7 +31,11 @@ FlashView is the fast first-pass tool between copying your card and opening your
 - **Filter on the fly.** Filter by rating (at-least, exact, at-most), by color label, by picked, by rejected, or hide RAW files entirely. Cull down to exactly what you're reviewing.
 - **Sort and group.** Name or date, ascending or descending. Group a parent folder by shoot, with configurable depth.
 - **Five color labels.** Red (`6`), yellow (`7`), green (`8`), blue (`9`), purple (`V`) — written as standard XMP, read back everywhere.
-- **Keyboard-first.** `←→` navigate, `0–5` rate, `P` pick, `X` reject, `U` clear flags, `G/L` Grid/Loupe, `F` fullscreen, `I` EXIF, `Del` trash, `Ctrl+Z` undo, `Ctrl+A` select all, `Ctrl+O` open folder, `R` recursive, `F1` shows the full list.
+- **Keyboard-first.** `←→` navigate, `0–5` rate, `P` pick, `X` reject, `U` clear flags, `G/L` Grid/Loupe, `F` fullscreen, `F11` second-monitor Loupe, `I` EXIF, `S` slideshow, `Ctrl+F` search, `Del` trash, `Ctrl+Z` undo, `Ctrl+A` select all, `Ctrl+O` open folder, `R` recursive, `F1` shows the full list.
+- **Jump to any file.** Quick-open search (`Ctrl+F`) finds a folder or image by name across the whole tree.
+- **Slideshow.** Auto-advance through the current folder or selection at a configurable interval (`S`).
+- **Second-monitor Loupe.** `F11` opens a full-size Loupe on your second screen while you browse and cull on the main one.
+- **Cloud-aware.** For OneDrive / Nextcloud / Dropbox folders, choose how online-only files are handled: fully sync (download all), ignore (no download), or preview just the first N images on demand — so a huge cloud folder opens without pulling everything down.
 - **Drill up, drill down.** Open a parent folder and see shoots grouped. Zoom into any subfolder, or browse them all at once recursively.
 - **Recent roots.** Your last opened folders, one click away.
 - **Dark UI, DE/EN.** Follows your system language automatically.
@@ -40,12 +44,15 @@ FlashView is the fast first-pass tool between copying your card and opening your
 
 ## Supported formats
 
-- **Images:** JPEG (`.jpg`, `.jpeg`, `.jpe`, `.jfif`), PNG
+- **Images:** JPEG (`.jpg`, `.jpeg`, `.jpe`, `.jfif`), PNG, HEIC / HEIF (`.heic`, `.heif`, `.hif`), TIFF (`.tif`, `.tiff`)
 - **RAW** — best-effort via embedded preview JPEG, no external RAW engine:
   - Canon CR3, CR2
   - Nikon NEF / NRW
   - Sony ARW / SR2
+  - Fujifilm RAF
   - Adobe DNG (Leica M8 falls back to EXIF only)
+  - Hasselblad 3FR / FFF
+  - Samsung SRW
   - Pentax PEF
   - Olympus ORF (modern bodies; old compacts show only camera thumbnails)
   - Panasonic RW2
@@ -55,7 +62,6 @@ FlashView is the fast first-pass tool between copying your card and opening your
 - Not a developing tool — no exposure, crop, or white balance.
 - Not color-managed yet — sRGB assumed.
 - Not a library or catalog — folders are your catalog, no import step.
-- Not cloud-synced — purely local.
 
 ## Where it fits in
 
@@ -79,6 +85,4 @@ If you shoot similarly, it might be faster for you too.
 
 ---
 
-Dev reference (build, env vars, architecture): see [`docs/dev-reference.md`](docs/dev-reference.md).
-
-© Mathias Mischler. Beta release, "as is", no warranty.
+© Mathias Mischler. Provided "as is", no warranty.
