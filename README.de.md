@@ -12,7 +12,7 @@ Ein schneller, schlanker Foto-Viewer für Windows — für Fotografen, die riesi
 
 ## Was es tut
 
-Einen Ordner mit Tausenden Fotos öffnen. Flüssig durchscrollen. Keeper mit einem Tastendruck bewerten, Ausschuss markieren, auf das Wesentliche herunterfiltern, Bewertungen als Standard-XMP exportieren — direkt lesbar in Lightroom, Bridge oder digiKam.
+Einen Ordner mit Tausenden Fotos öffnen. Flüssig durchscrollen. Keeper mit einem Tastendruck bewerten, Ausschuss markieren, auf das Wesentliche herunterfiltern, Bewertungen als Standard-XMP exportieren — direkt lesbar in Lightroom, Bridge oder Capture One.
 
 FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren und Editor öffnen.
 
@@ -26,7 +26,7 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 
 ## Features
 
-- **XMP-Metadaten, die jedes größere Tool liest.** Sterne, Farbmarken und Pick/Reject-Flags werden als Standard-XMP geschrieben — direkt in die JPEG eingebettet oder als Sidecar neben der RAW. Jedes XMP-fähige Programm liest sie: Lightroom, Bridge, digiKam und alles andere, das XMP spricht.
+- **XMP-Metadaten, die jedes größere Tool liest.** Sterne, Farbmarken und Pick/Reject-Flags werden als Standard-XMP geschrieben — direkt in die JPEG eingebettet oder als Sidecar neben der RAW. Jedes XMP-fähige Programm liest sie: Lightroom, Bridge, Capture One und alles andere, das XMP spricht.
 - **Hunderte auf einmal bewerten.** 200, 1.000 oder mehr Dateien auswählen — `3` drücken, fertig. Sterne, Farbmarken, Pick/Reject — alles mit einem Tastendruck, gleichermaßen für JPEGs und XMP-Sidecars. `Strg+Z` macht den letzten Batch rückgängig.
 - **Live filtern.** Nach Sternen (mindestens/genau/höchstens), Farbmarke, Pick, Reject — oder RAW-Dateien ganz ausblenden. Genau auf das herunterfiltern, was gerade beurteilt wird.
 - **Sortieren und gruppieren.** Name oder Datum, auf- oder absteigend. Einen Elternordner nach Shoots gruppieren, mit konfigurierbarer Tiefe.
@@ -68,6 +68,11 @@ FlashView ist das schnelle Erstdurchgangs-Tool zwischen Speicherkarte kopieren u
 Die meisten Foto-Browser versprechen Geschwindigkeit. Die meisten funktionieren bei ein paar hundert Bildern, geraten bei 10.000 ins Hintertreffen und geben bei 100.000 auf. FlashView ist genau für dieses obere Ende gebaut — für die Ordner, die echte Fotografen tatsächlich ansammeln.
 
 Lightroom ist Editor-first; das Bibliotheksmodul ist nicht aufs schnelle Cullen ausgelegt. FlashView ergänzt es — dein schneller Erstdurchgang vor Lightroom, kein Ersatz: schnell genug für einen Fünfzigtausend-Bilder-Shoot, schlank genug, um auf jedem deiner Rechner zu laufen.
+
+## Mehr lesen
+
+- [ACDSee-Alternative: zurück zum schnellen, schlanken Bildbetrachter](https://whitespace.de/de/artikel/acdsee-alternative-schneller-viewer/) — warum ein dedizierter schneller Viewer für den ersten Durchgang den schweren Katalog schlägt.
+- [Deine Kamera packt ein zweites Bild ins RAW. Hier ist, warum das alles verändert.](https://whitespace.de/de/artikel/raw-jpeg/) — das eingebettete Vorschau-JPEG, das schnelles RAW-Blättern erst möglich macht.
 
 ## Ökosystem
 
