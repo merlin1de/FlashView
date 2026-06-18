@@ -12,7 +12,7 @@ English · [Deutsch](README.de.md)
 
 ## What it does
 
-Open a folder with thousands of photos. Scroll through them at full speed. Rate your keepers with a single keystroke, flag the rejects, filter down to what matters, and export ratings as standard XMP — ready for Lightroom, Bridge, or digiKam.
+Open a folder with thousands of photos. Scroll through them at full speed. Rate your keepers with a single keystroke, flag the rejects, filter down to what matters, and export ratings as standard XMP — ready for Lightroom, Bridge, or Capture One.
 
 FlashView is the fast first-pass tool between copying your card and opening your editor.
 
@@ -26,7 +26,7 @@ FlashView is the fast first-pass tool between copying your card and opening your
 
 ## Features
 
-- **XMP metadata, shared with every major tool.** Ratings, color labels, and pick/reject flags are written as standard XMP — embedded inside the JPEG, or as a sidecar next to your RAW. Any XMP-aware program reads them back: Lightroom, Bridge, digiKam, and anything else that speaks XMP.
+- **XMP metadata, shared with every major tool.** Ratings, color labels, and pick/reject flags are written as standard XMP — embedded inside the JPEG, or as a sidecar next to your RAW. Any XMP-aware program reads them back: Lightroom, Bridge, Capture One, and anything else that speaks XMP.
 - **Batch-rate hundreds at a time.** Select 200, 1,000, or more files — press `3`, done. Stars, color labels, pick/reject all writable in a single keystroke, across JPEGs and XMP sidecars alike. `Ctrl+Z` undoes the last batch.
 - **Filter on the fly.** Filter by rating (at-least, exact, at-most), by color label, by picked, by rejected, or hide RAW files entirely. Cull down to exactly what you're reviewing.
 - **Sort and group.** Name or date, ascending or descending. Group a parent folder by shoot, with configurable depth.
@@ -68,6 +68,11 @@ FlashView is the fast first-pass tool between copying your card and opening your
 Most photo browsers promise speed. Most are fine at a few hundred images, fall behind at 10,000, and give up at 100,000. FlashView is built for that high end — the folders real photographers actually accumulate.
 
 Lightroom is editor-first; its Library isn't built for rapid culling. FlashView complements it — your fast first pass before Lightroom, not a replacement: fast enough for a fifty-thousand-image shoot, lean enough to live on every machine you own.
+
+## Read more
+
+- [ACDSee alternative: back to the fast, lean image viewer](https://whitespace.de/en/artikel/acdsee-alternative-schneller-viewer/) — why a dedicated fast viewer beats a heavy catalog for the first pass.
+- [Your camera packs a second image into the RAW. Here's why that changes everything.](https://whitespace.de/en/artikel/raw-jpeg/) — the embedded preview JPEG that makes instant RAW browsing possible.
 
 ## Ecosystem
 
