@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Manual
+    url: https://flashview.net/en/manual
+    about: How something works, keyboard shortcuts, settings — the manual answers most of it.
+  - name: License, purchase, activation
+    url: https://flashview.net/en/manual
+    about: Keys, invoices, moving a license to another machine — the manual has the contact route.
+  - name: Handbuch (deutsch)
+    url: https://flashview.net/de/manual
+    about: Dieselbe Dokumentation auf Deutsch.

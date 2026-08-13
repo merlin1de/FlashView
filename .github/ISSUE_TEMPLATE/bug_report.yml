@@ -1,0 +1,102 @@
+name: Bug report
+description: Something in FlashView doesn't work the way it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Write in **English or German**, whichever suits you.
+
+        The questions below are the ones that decide whether a bug can be reproduced.
+        If you don't know an answer, leave it — a report with gaps still beats no report.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: And what did you expect instead?
+      placeholder: |
+        I pressed 3 on a selection of about 400 files. Roughly 30 of them kept no rating.
+        Expected: all of them get three stars.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to get there
+      description: The shortest path you know of that shows the problem.
+      placeholder: |
+        1. Open a folder with ~500 CR3 files
+        2. Ctrl+A
+        3. Press 3
+        4. F5
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: FlashView version
+      description: The **ℹ** button in the toolbar shows it, top line.
+      placeholder: "1.8.6"
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: "`winver` gives you the exact one."
+      placeholder: "Windows 11 24H2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: storage
+    attributes:
+      label: Where do the images live?
+      description: This matters more than anything else for speed and file-access problems.
+      options:
+        - Local SSD or hard disk
+        - USB drive or memory card
+        - NAS or network share
+        - Cloud folder (OneDrive, Nextcloud, Dropbox …)
+        - Somewhere else / mixed
+    validations:
+      required: true
+
+  - type: input
+    id: folder-size
+    attributes:
+      label: How many images are in the folder?
+      description: A rough number is fine. The status bar bottom left shows the count.
+      placeholder: "about 9,000"
+
+  - type: input
+    id: files
+    attributes:
+      label: Which files does it happen with?
+      description: File format and camera, if the problem is tied to particular pictures.
+      placeholder: "Canon R6 Mk II, CR3 — JPEGs from the same folder are fine"
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot or anything else
+      description: |
+        Drop images straight into this field.
+
+        If FlashView showed an error message, the exact wording helps. There's a log at
+        `%AppData%\FlashView\app.log`; the last few lines around the time it happened are
+        usually enough — please skim them first, they contain your folder and file names.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I'm on the current version (about window → *Check for updates*)
+          required: false
+        - label: I searched the existing issues
+          required: false
